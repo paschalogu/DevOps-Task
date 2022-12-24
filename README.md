@@ -15,9 +15,9 @@ DevOps Test:
 - Helm Installed
 - A sample application: Voting App with front end and backend that shows result on the results page. The voting application only accepts one vote per client browser. It does not register additional votes if a vote has already been submitted from a client.
 
-#App Architecture
+### App Architecture
 
-<https://github.com/paschalogu/DevOps-Task/blob/main/architecture-votingapp.png>
+(https://github.com/paschalogu/DevOps-Task/blob/main/architecture-votingapp.png?raw=true)
 
 To run the app locally run the below command:
 
