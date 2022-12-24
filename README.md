@@ -17,7 +17,7 @@ DevOps Test:
 
 ### App Architecture
 
-(https://github.com/paschalogu/DevOps-Task/blob/main/architecture-votingapp.png?raw=true)
+![App Architecture](https://github.com/paschalogu/DevOps-Task/blob/main/architecture-votingapp.png?raw=true)
 
 To run the app locally run the below command:
 
