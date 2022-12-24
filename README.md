@@ -13,11 +13,11 @@ Running an application with Helm Chart:
 - locally installed Kubernetes cluster - Microk8s
 - Kubernetes command line tool - kubectl
 - Helm Installed
-- A sample application: Voting App that shows result
+- A sample application: Voting App with front end and backend that shows result on the results page
 
 To run the app locally run the below command:
 
-Clone the repository:
+### Clone the repository:
 ```
 git clone https://github.com/paschalogu/DevOps-Task.git
 ```
@@ -33,13 +33,13 @@ tree .
 helm lint votingapp
 ```
 
-## To install and run the deployment run the command bellow
+### To install and run the deployment run the command bellow
 
 ```
 helm install myvotingapp votingapp
 ```
 
-## Verify the helm install
+### Verify the helm install
 
 ```
 helm list -a
@@ -49,7 +49,7 @@ helm list -a
 kubectl get all
 ```
 
-## To Delete Helm release
+### To Delete Helm release
 
 ```
 helm delete myvotingapp
