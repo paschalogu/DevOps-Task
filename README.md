@@ -18,33 +18,33 @@ My setup:
 To run the app locally run the below command:
 
 Clone the repository:
-'''
+```
 git clone https://github.com/paschalogu/DevOps-Task.git
-'''
+```
 
 navigate inside the repository 
 
-'''
+```
 cd DevOps-Task
 tree .
-'''
+```
 
-'''
+```
 helm lint votingapp
-'''
+```
 
 To install and run the deployment run the command bellow
 
-'''
+```
 helm install myvotingapp votingapp
-'''
+```
 
 Verify the helm install
 
-'''
+```
 helm list -a
-'''
+```
 
-'''
+```
 kubectl get all
-'''
+```
