@@ -7,7 +7,7 @@ DevOps Test:
 
 Running an application with Helm Chart:
 
-My setup:
+## My setup:
 - Ubuntu Linux Distribution (Virtualized on VMware workstation)
 - Docker 
 - locally installed Kubernetes cluster - Microk8s
@@ -33,13 +33,13 @@ tree .
 helm lint votingapp
 ```
 
-To install and run the deployment run the command bellow
+## To install and run the deployment run the command bellow
 
 ```
 helm install myvotingapp votingapp
 ```
 
-Verify the helm install
+## Verify the helm install
 
 ```
 helm list -a
@@ -48,3 +48,9 @@ helm list -a
 ```
 kubectl get all
 ```
+
+## To Delete Helm release
+
+```
+helm delete myvotingapp
+````
