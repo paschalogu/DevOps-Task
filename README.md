@@ -5,19 +5,24 @@ DevOps Test:
 2. Your helm chart should deploy two application containers: a frontend app and it’s backend into your Kubernetes cluster.
 3. configure Ingress to access your applications.
 
-Running an application with Helm Chart:
+## Creating an application with Helm Chart:
 
-## My setup:
+### My setup:
 - Ubuntu Linux Distribution (Virtualized on VMware workstation)
 - Docker 
-- locally installed Kubernetes cluster - Microk8s
+- Locally installed Kubernetes cluster - Microk8s
 - Kubernetes command line tool - kubectl
 - Helm Installed
-- A sample application: Voting App with front end and backend that shows result on the results page
+- A sample application: Voting App with front end and backend that shows result on the results page. The voting application only accepts one vote per client browser. It does not register additional votes if a vote has already been submitted from a client.
+
+#App Architecture
+
+<https://github.com/paschalogu/DevOps-Task/blob/main/architecture-votingapp.png>
 
 To run the app locally run the below command:
 
 ### Clone the repository:
+
 ```
 git clone https://github.com/paschalogu/DevOps-Task.git
 ```
